@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Cloth Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <h1>🧵 Cloth Destruction Lab</h1>
+      <p>
+        ЛКМ: тянуть ткань · Колёсико: масштаб · Перетаскивание по пустому месту: вращение
+      </p>
+      <p>
+        <kbd>B</kbd> + клик: поджечь · <kbd>P</kbd>: закрепить/открепить верх · <kbd>R</kbd>: сброс
+        · <kbd>W</kbd>: ветер
+      </p>
+      <div id="stats"></div>
+    </div>
+    <canvas id="app"></canvas>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
